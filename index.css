@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav {
+    justify-items: center;
+    display: flex;/*ichidagi elementni yonma yon qilish uchun*/
+    justify-content: space-around;/*widh boyicha surish*/
+    align-items: center;/*heigt boyicha tekis qilish*/
+    height: 70px;
+    background-color: aqua;
+
+    background-image: url(https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+nav h1 {
+    font-size: 30px;
+    color: white;
+    cursor:auto ;
+}
+nav div {
+    display: flex;
+    gap: 50px;
+    transition: 2.7s;
+}
+nav div a{
+    color: aliceblue;
+    text-decoration: none;/*chiziq uchun*/
+    font-size: 18px;
+    transition: 1.9s;/*hodisani sekinlashtirish uhun*/
+
+
+}
+img {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    cursor: ;
+    transition: 1.7s;
+}
+img:hover{
+    width: 1000px;
+    height: 650px;
+    border-radius: 10px;
+    border: 10px solid greenyellow;
+}
+nav div a:hover{
+    font-size: 28px;
+    font-weight: 900;
+    color: red;
+}
+.too {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin: auto;
+    background-image: url(https://images.pexels.com/photos/381739/pexels-photo-381739.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
